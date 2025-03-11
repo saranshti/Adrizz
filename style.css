@@ -656,18 +656,3 @@ body {
 }
 
 /* Page 9 End*/
-
-.moon {
-  position: absolute;
-  width: 350px;
-  height: 350px;
-  background-color: red;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Unique Elements Styling */
-.extra {
-  position: absolute;
-}
