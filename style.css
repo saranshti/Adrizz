@@ -461,11 +461,17 @@ body {
     bottom: 25%;
   }
 
-  .extra.extraPage32,
-  .extra.extraPage33 {
+  .extra.extraPage32 {
     width: 100%;
     height: 50%;
     top: 0%;
+  }
+
+  .extra.extraPage33 {
+    width: 150%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
   }
 
   .extra.extraPage42,
@@ -477,11 +483,17 @@ body {
   }
 
   .extra.extraPage45,
-  .extra.extraPage46,
-  .extra.extraPage47 {
+  .extra.extraPage46 {
     width: 100%;
     height: 60%;
     top: 20%;
+  }
+
+  .extra.extraPage47 {
+    width: 150%;
+    height: 100%;
+    top: 10%;
+    left: 0%;
   }
 
   .extra.extraPage52,
