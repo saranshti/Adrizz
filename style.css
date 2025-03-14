@@ -431,3 +431,163 @@ body {
 }
 
 /* Page 9 End */
+
+@media (max-width: 475px) {
+  .extra.extraPage14,
+  .extra.extraPage12,
+  .extra.extraPage13 {
+    width: 120%;
+    height: 60%;
+    right: -10%;
+    left: -10%;
+    top: 20%;
+    bottom: 20%;
+  }
+
+  .extra.extraPage22,
+  .extra.extraPage23 {
+    width: 120%;
+    height: 50%;
+    right: -10%;
+    left: -10%;
+    top: 25%;
+    bottom: 25%;
+  }
+
+  .extra.extraPage24 {
+    width: 100%;
+    height: 50%;
+    top: 25%;
+    bottom: 25%;
+  }
+
+  .extra.extraPage32,
+  .extra.extraPage33 {
+    width: 100%;
+    height: 50%;
+    top: 0%;
+  }
+
+  .extra.extraPage42,
+  .extra.extraPage43,
+  .extra.extraPage44 {
+    width: 100%;
+    height: 60%;
+    bottom: 0%;
+  }
+
+  .extra.extraPage45,
+  .extra.extraPage46,
+  .extra.extraPage47 {
+    width: 100%;
+    height: 60%;
+    top: 20%;
+  }
+
+  .extra.extraPage52,
+  .extra.extraPage53 {
+    width: 100%;
+    height: 60%;
+    top: 0%;
+  }
+  .extra.extraPage54,
+  .extra.extraPage55 {
+    width: 150%;
+    height: 100%;
+    left: -25%;
+  }
+
+  .extra.extraPage56,
+  .extra.extraPage57,
+  .extra.extraPage58,
+  .extra.extraPage59,
+  .extra.extraPage510,
+  .extra.extraPage511 {
+    width: 100%;
+    height: 60%;
+    bottom: 0%;
+  }
+
+  .extra.extraPage512 {
+    width: 140%;
+    height: 100%;
+    left: -20%;
+  }
+
+  .extra.extraPage62,
+  .extra.extraPage63 {
+    width: 100%;
+    height: 60%;
+    top: 0%;
+  }
+
+  .extra.extraPage64 {
+    width: 100%;
+    height: 60%;
+    bottom: 0%;
+  }
+
+  .extra.extraPage65 {
+    width: 100%;
+    height: 60%;
+    top: 20%;
+  }
+
+  .extra.extraPage72,
+  .extra.extraPage73,
+  .extra.extraPage74,
+  .extra.extraPage75 {
+    width: 140%;
+    height: 100%;
+    left: -20%;
+  }
+
+  .extra.extraPage76,
+  .extra.extraPage77 {
+    width: 100%;
+    height: 60%;
+    bottom: 0%;
+  }
+
+  .extra.extraPage78,
+  .extra.extraPage79 {
+    width: 140%;
+    height: 100%;
+    left: -20%;
+  }
+
+  .extra.extraPage82,
+  .extra.extraPage83,
+  .extra.extraPage84,
+  .extra.extraPage85,
+  .extra.extraPage86 {
+    width: 100%;
+    height: 60%;
+    top: 0%;
+  }
+
+  .extra.extraPage92,
+  .extra.extraPage93,
+  .extra.extraPage94,
+  .extra.extraPage95,
+  .extra.extraPage96 {
+    width: 100%;
+    height: 70%;
+    top: 20%;
+  }
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1536px) {
+}
