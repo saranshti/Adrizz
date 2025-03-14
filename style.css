@@ -14,111 +14,18 @@ body {
   scroll-snap-align: start;
 }
 
-.main {
-  position: relative;
+.extra {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-}
-
-/* Page 1 */
-.navbar {
-  position: fixed;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
-  background: white;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 100;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li {
-  display: inline;
-}
-
-.nav-links a {
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #ffcc00;
-}
-
-.page1 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: url("./images/page 1/2.png") no-repeat center center;
-  background-size: cover;
-}
-
-.footer.footerPage1 {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  object-fit: fill;
-  background-color: transparent;
 }
 
-.moon.moonPage1 {
+.text {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  background-color: transparent;
-  z-index: 10;
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.text.pageText1 {
-  position: absolute;
-  color: white;
-  left: 30%;
-  top: 25%;
-  z-index: 20;
-  font-size: 100px;
-  font-weight: 700;
-  background-color: transparent;
-}
-
-.extra.pageText2 {
-  width: 100px;
-  position: absolute;
-  color: white;
-  background-color: transparent;
-  right: 30%;
-  bottom: 30%;
-  z-index: 20;
-  font-size: 70px;
 }
 
 .Myfooter {
-  position: fixed;
+  position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
@@ -151,257 +58,239 @@ body {
   font-size: 16px;
 }
 
+.MyHeader {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translateX(-50%);
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px 20px;
+  z-index: 100;
+}
+
+.MyHeader a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.MyHeader a:hover {
+  color: #ffcc00;
+}
+
+/* Page 1 Start */
+
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.page1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("./images/page 1/11.png") no-repeat center center;
+  background-size: cover;
+}
+
+.extra.extraPage12 {
+  z-index: 1;
+}
+
+.extra.extraPage13 {
+  z-index: 2;
+}
+
+.extra.extraPage14 {
+  z-index: 3;
+}
+
 /* Page 1 End */
 
 /* Page 2 Start */
+
 .page2 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 2/5.png") no-repeat center center;
+  background: url("./images/page 2/21.png") no-repeat center center;
   background-size: cover;
 }
 
-.moon.moonPage2 {
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  object-fit: fill;
-  background-color: transparent;
-  z-index: 10;
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%);
+.extra.extraPage22 {
+  z-index: 1;
 }
 
-.extra.pageText21 {
-  position: absolute;
-  top: 20%;
-  left: 10%;
+.extra.extraPage23 {
+  z-index: 2;
 }
 
-.extra.pageText22 {
-  position: absolute;
-  top: 20%;
-  right: 10%;
+.extra.extraPage24 {
+  z-index: 3;
 }
-/* Page 2 End*/
+
+/* Page 2 End */
 
 /* Page 3 Start */
+
 .page3 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 3/6.png") no-repeat center center;
+  background: url("./images/page 3/31.png") no-repeat center center;
   background-size: cover;
 }
 
-.moon.moonPage3 {
-  position: absolute;
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
-  background-color: transparent;
-  z-index: 10;
-  top: -20%;
-  left: 0%;
-  transform: translateX(-50%);
+.extra.extraPage32 {
+  z-index: 1;
 }
 
-.extra.pageText31 {
-  position: absolute;
-  top: 20%;
-  left: 10%;
+.extra.extraPage33 {
+  z-index: 2;
 }
-/* Page 3 End*/
+
+/* Page 3 End */
 
 /* Page 4 Start */
+
 .page4 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 6/23.png") no-repeat center center;
+  background: url("./images/page 4/41.png") no-repeat center center;
   background-size: cover;
-  background-color: #000;
-}
-
-.moon.moonPage4 {
-  position: absolute;
-  width: 16%;
-  height: 30%;
-  background-color: transparent;
-  z-index: 10;
-  opacity: 1;
-  top: 15%;
-  left: 78%;
-  transform: translateX(-50%);
-}
-
-.extra.extraPage43 {
-  width: 1200px;
-  position: absolute;
-  color: white;
-  background-color: transparent;
-  top: 3%;
-  left: 43%;
-  z-index: 20;
-  font-size: 70px;
-  opacity: 0.7;
-}
-
-.footer.footerPage4 {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  bottom: 0;
-  object-fit: fill;
-  background-color: black;
-}
-
-.extra.extraPage41 {
-  width: 200px;
-  position: absolute;
-  color: white;
-  background-color: transparent;
-  right: 4%;
-  bottom: -3%;
-  z-index: 20;
 }
 
 .extra.extraPage42 {
-  width: 400px;
-  position: absolute;
-  color: white;
-  background-color: transparent;
-  left: -2%;
-  bottom: -3%;
-  z-index: 20;
-  font-size: 70px;
+  z-index: 1;
 }
 
-.extra.pageText41 {
-  position: absolute;
-  top: 20%;
-  left: 10%;
+.extra.extraPage43 {
+  z-index: 2;
 }
 
-/* Page 4 End*/
+.extra.extraPage44 {
+  z-index: 3;
+}
+
+.extra.extraPage45 {
+  z-index: 4;
+}
+
+.extra.extraPage46 {
+  z-index: 5;
+}
+
+.extra.extraPage47 {
+  z-index: 6;
+}
+/* Page 4 End */
 
 /* Page 5 Start */
+
 .page5 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #4a8888;
-}
-
-.moon.moonPage5 {
-  position: absolute;
-  width: 80%;
-  height: 85%;
-  object-fit: fill;
-  background-color: transparent;
-  z-index: 2;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.extra.extraPage51 {
-  width: 50%;
-  height: 80%;
-  position: absolute;
-  color: white;
-  background-color: transparent;
-  left: -13%;
-  top: -3%;
-  z-index: 5;
-  opacity: 0.9;
+  background: url("./images/page 5/51.png") no-repeat center center;
+  background-size: cover;
 }
 
 .extra.extraPage52 {
-  width: 25%;
-  height: 45%;
-  position: absolute;
-  color: white;
-  left: -10%;
-  top: 10%;
-  z-index: 20;
-}
-
-.extra.extraPage53 {
-  width: 30%;
-  height: 20%;
-  position: absolute;
-  color: white;
-  left: 20%;
-  bottom: 5%;
-  z-index: 20;
-}
-.extra.extraPage54 {
-  width: 20%;
-  height: 10%;
-  position: absolute;
-  color: white;
-  right: 20%;
-  bottom: 10%;
-  z-index: 20;
-}
-.extra.extraPage55 {
-  width: 60%;
-  height: 45%;
-  position: absolute;
-  color: white;
-  left: -15%;
-  bottom: -3%;
-  z-index: 5;
-}
-.extra.extraPage56 {
-  width: 60%;
-  height: 40%;
-  position: absolute;
-  color: white;
-  right: 30%;
-  bottom: -3%;
-  z-index: 5;
-}
-.extra.extraPage57 {
-  width: 60%;
-  height: 50%;
-  position: absolute;
-  color: white;
-  right: -10%;
-  bottom: -3%;
-  z-index: 5;
-}
-
-.extra.extraPage58 {
-  width: 60%;
-  height: 50%;
-  position: absolute;
-  color: white;
-  right: 18%;
-  bottom: 20%;
   z-index: 1;
 }
 
-.extra.pageText51 {
-  position: absolute;
-  bottom: 40%;
-  left: 25%;
+.extra.extraPage53 {
+  z-index: 2;
 }
 
-.extra.pageText52 {
-  position: absolute;
-  top: 20%;
-  right: 10%;
+.extra.extraPage54 {
+  z-index: 3;
 }
 
-/* Page 5 End*/
+.extra.extraPage55 {
+  z-index: 4;
+}
+
+.extra.extraPage56 {
+  z-index: 5;
+}
+
+.extra.extraPage57 {
+  z-index: 6;
+}
+
+.extra.extraPage58 {
+  z-index: 7;
+}
+
+.extra.extraPage59 {
+  z-index: 8;
+}
+
+.extra.extraPage510 {
+  z-index: 9;
+}
+
+.extra.extraPage511 {
+  z-index: 10;
+}
+
+.extra.extraPage512 {
+  z-index: 11;
+}
+
+/* Page 5 End */
 
 /* Page 6 Start */
 .page6 {
@@ -409,250 +298,136 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 6/23.png") no-repeat center center;
+  background: url("./images/page 6/61.png") no-repeat center center;
   background-size: cover;
   background-color: #112a52;
 }
 
-.extra.extraPage61 {
-  width: 60%;
-  height: 60%;
-  position: absolute;
-  color: white;
-  top: -7%;
-  left: -7%;
-  z-index: 5;
-}
 .extra.extraPage62 {
-  width: 40%;
-  height: 40%;
-  position: absolute;
-  color: white;
-  top: -10%;
-  left: -10%;
-  z-index: 4;
-}
-
-.extra.extraPage63 {
-  width: 100%;
-  height: 80%;
-  position: absolute;
-  color: white;
-  right: 0%;
-  bottom: 0%;
   z-index: 1;
 }
 
-.extra.pageText61 {
-  position: absolute;
-  top: 35%;
-  left: 5%;
-  z-index: 20;
+.extra.extraPage63 {
+  z-index: 2;
 }
 
-.extra.pageText62 {
-  position: absolute;
-  top: 20%;
-  right: 10%;
+.extra.extraPage64 {
+  z-index: 3;
 }
-/* Page 6 End*/
+
+.extra.extraPage65 {
+  z-index: 4;
+}
+
+/* Page 6 End */
 
 /* Page 7 Start */
+
 .page7 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 6/23.png") no-repeat center center;
+  background: url("./images/page 7/71.png") no-repeat center center;
   background-size: cover;
-  background-color: #000;
-}
-
-.moon.moonPage7 {
-  position: absolute;
-  width: 20%;
-  height: 30%;
-  object-fit: fill;
-  background-color: transparent;
-  z-index: 10;
-  top: 20%;
-  left: 60%;
-  transform: translateX(-50%);
-}
-
-.extra.extraPage71 {
-  width: 30%;
-  height: 45%;
-  position: absolute;
-  color: white;
-  right: 20%;
-  bottom: 48%;
-  opacity: 0.4;
-  z-index: 1;
 }
 
 .extra.extraPage72 {
-  width: 20%;
-  height: 20%;
-  position: absolute;
-  color: white;
-  top: 10%;
-  left: 35%;
   z-index: 1;
 }
 
 .extra.extraPage73 {
-  width: 25%;
-  height: 30%;
-  position: absolute;
-  color: white;
-  left: 10%;
-  bottom: 18%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .extra.extraPage74 {
-  width: 20%;
-  height: 25%;
-  position: absolute;
-  color: white;
-  right: 30%;
-  bottom: 10%;
-  z-index: 1;
+  z-index: 3;
 }
 
-.footer.footerPage7 {
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  bottom: 0;
-  object-fit: fill;
-  background-color: transparent;
+.extra.extraPage75 {
+  z-index: 4;
 }
-/* Page 7 End*/
+
+.extra.extraPage76 {
+  z-index: 5;
+}
+
+.extra.extraPage77 {
+  z-index: 6;
+}
+
+.extra.extraPage78 {
+  z-index: 7;
+}
+
+.extra.extraPage79 {
+  z-index: 8;
+}
+
+/* Page 7 End */
 
 /* Page 8 Start */
+
 .page8 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #000;
-}
-
-.moon.moonPage8 {
-  position: absolute;
-  width: 15%;
-  height: 15%;
-  object-fit: fill;
-  background-color: transparent;
-  z-index: 10;
-  top: 25%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.extra.extraPage81 {
-  width: 10%;
-  height: 30%;
-  position: absolute;
-  color: white;
-  left: 45%;
-  top: 0%;
-  opacity: 1;
-  z-index: 5;
+  background: url("./images/page 8/81.png") no-repeat center center;
+  background-size: cover;
 }
 
 .extra.extraPage82 {
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  color: white;
-  top: -5%;
-  left: -30%;
   z-index: 1;
 }
 
 .extra.extraPage83 {
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  color: white;
-  right: -10%;
-  top: -5%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .extra.extraPage84 {
-  width: 20%;
-  height: 25%;
-  position: absolute;
-  color: white;
-  right: 3%;
-  top: 5%;
-  z-index: 0;
+  z-index: 3;
 }
 
 .extra.extraPage85 {
-  width: 10%;
-  height: 15%;
-  position: absolute;
-  color: white;
-  right: 10%;
-  top: 20%;
-  z-index: 1;
+  z-index: 4;
 }
 
-.footer.footerPage8 {
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  bottom: 0;
-  object-fit: fill;
-  background-color: transparent;
+.extra.extraPage86 {
+  z-index: 5;
 }
-/* Page 8 End*/
+
+/* Page 8 End */
 
 /* Page 9 Start */
+
 .page9 {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url("./images/page 6/23.png") no-repeat center center;
+  background: url("./images/page 9/91.png") no-repeat center center;
   background-size: cover;
-  background-color: #0f0942;
-}
-
-.extra.extraPage91 {
-  width: 50%;
-  height: 60%;
-  position: absolute;
-  color: white;
-  left: -23%;
-  top: 23%;
-  opacity: 1;
-  z-index: 5;
 }
 
 .extra.extraPage92 {
-  width: 20%;
-  height: 20%;
-  position: absolute;
-  color: white;
-  top: 10%;
-  right: 30%;
   z-index: 1;
 }
 
 .extra.extraPage93 {
-  width: 20%;
-  height: 20%;
-  position: absolute;
-  color: white;
-  left: 30%;
-  bottom: 10%;
-  z-index: 1;
+  z-index: 2;
 }
 
-/* Page 9 End*/
+.extra.extraPage94 {
+  z-index: 3;
+}
+
+.extra.extraPage95 {
+  z-index: 4;
+}
+
+.extra.extraPage96 {
+  z-index: 5;
+}
+
+/* Page 9 End */
