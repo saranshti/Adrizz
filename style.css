@@ -82,6 +82,47 @@ body {
   color: #ffcc00;
 }
 
+/* Added for slider Effect start*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent default scrolling */
+}
+
+.page-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+
+.page > div {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* Ensure all pages start off-screen */
+.page:not([data-page="1"]) {
+  transform: translateY(100%);
+}
+
+/* Added for slider Effect End*/
+
 /* Page 1 Start */
 
 .navbar {
